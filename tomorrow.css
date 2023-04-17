@@ -1,5 +1,5 @@
 .column-100{
-    background-image:  url("/img/banner-2.jpg");
+    background-image: url(/img/banner-2.jpg);
     background-size: cover;
     background-position: center;
     padding: 200px;
@@ -8,7 +8,11 @@
     font-family: 'Nunito', sans-serif;
     font-size: xx-large;
 }
-.titulo2{
+#titulo{
+    font-family: 'Nunito', sans-serif;
+    font-size: xx-large;
+}
+#titulo2{
     font-family: 'Nunito', sans-serif;
     font-size: medium;
 
@@ -19,5 +23,5 @@
  }
 .column33{
     background-color: green;
-    width: ;
+    width: 33,33;
 }
