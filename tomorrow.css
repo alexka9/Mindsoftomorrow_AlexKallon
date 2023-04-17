@@ -1,0 +1,23 @@
+.column-100{
+    background-image:  url("/img/banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    height: 300px; 
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: xx-large;
+}
+.titulo2{
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+
+}
+.column-img{
+    width: 50%;
+    float: right;
+ }
+.column33{
+    background-color: green;
+    width: ;
+}
