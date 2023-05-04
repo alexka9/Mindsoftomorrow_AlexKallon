@@ -1,7 +1,7 @@
 .row{
     display: flex;
-    height: 100px;
-    
+    clear: none;
+    margin: none;
 }
 .column-100{
     background-image: url(./img/banner-2.jpg);
@@ -15,8 +15,6 @@ h1{
     font-family: 'Nunito', sans-serif;
     font-size: 70px;
 }
-
-
 #titulo{
     font-family: 'Nunito', sans-serif;
     font-size: 85px;
@@ -34,27 +32,33 @@ h1{
     float: left;
     margin-top: 100px;
 }
-
-
-.column-33{
-    background-color: rgba(56, 237, 152, 0.942);
+#estilos{
     font-family: 'Nunito', sans-serif;
+    background-color: aquamarine;
+}
+.column1002{
+    font-family: 'Nunito', sans-serif;
+    font-size: 70px;
+    text-align: center;
 }
 .column-img2{
-    /* display: flex; */
-    width: 33.50%;
+    width: 70.89%;
+    padding-left: 25%;
+}
+.textoencima{
+    margin-left: 45%;
+    display: inline-flex;
+    text-align: center;
 }
 #titulo3{
     font-family: 'Nunito', sans-serif;
     font-size: 85px;
     text-align: center;
 }
-
-
 .column-img3{
     width: 50%;
     float: left;
-    margin-top: 255px;
+    margin-top: 100px;
 }
 .column-505{
     width: 50%;
@@ -68,30 +72,21 @@ h1{
     font-family: 'Nunito', sans-serif;
     font-size: 50px;
 }
-
-
-
-
 .columnimg{
     display: flex;
 }
 .columnimg img{
     width: 25%;
 }
-
-
-.column-1002{
-    height: 10%;
-    /* margin-top: 268px; */
+#estilos2{
     font-family: 'Nunito', sans-serif;
-    font-size: 88px;
+    font-size: 80px;
     text-align: center;
     background-color: rgb(0, 145, 255);
 }
 .row4{
     background-color: black;
     height: 170%;
-    clear:both 
 }
 #titulo7{
     color: white;
@@ -109,10 +104,4 @@ h1{
 }
 .no-numeros{
     list-style-type: none;
-}
-body{
-    margin: 0;
-}
-html{
-    margin: 0;
 }
