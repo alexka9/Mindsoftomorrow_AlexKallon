@@ -190,7 +190,7 @@ column-img2{
       text-align: center;
     }
     .column-img3{
-      max-width: 100%;
+      width: 100%;
       height: auto;
     }
     .textoencima{
