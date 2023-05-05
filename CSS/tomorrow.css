@@ -32,6 +32,10 @@ h1{
     float: left;
     margin-top: 100px;
 }
+#tamaño-img{
+   max-width: 600px;
+   height: auto;
+}
 #estilos{
     font-family: 'Nunito', sans-serif;
     background-color: aquamarine;
@@ -41,19 +45,30 @@ h1{
     font-size: 70px;
     text-align: center;
 }
-.column-img2{
-    width: 70.89%;
-    padding-left: 25%;
-}
-.textoencima{
-    margin-left: 45%;
-    display: inline-flex;
+column-img2{
     text-align: center;
+    width: 22.80;
+    height: 22.80;
+    display: flex;
+}
+#tamaño-img2{
+    max-width: 150px;
+    height: auto;
+    margin-left: 10%;
+    padding: 1%;
+ }
+.textoencima{
+    padding: 0.5%;
+    margin-left: 9%;
+    display: inline-flex;
 }
 #titulo3{
     font-family: 'Nunito', sans-serif;
     font-size: 85px;
     text-align: center;
+}
+#tamaño-img4{
+    width: 80%;
 }
 .column-img3{
     width: 50%;
@@ -105,58 +120,91 @@ h1{
 .no-numeros{
     list-style-type: none;
 }
-@media (max-width: 700px){
-    h1{
-        text-align: center;
-        font-family: 'Nunito', sans-serif;
-        font-size: 90px;
-    }
-    column-100{
-        background-image: url(./img/banner-2.jpg);
-        padding: 50px;
-        height: 100px;
-    }
-    .titulo{
-        font-family: 'Nunito', sans-serif;
-        text-align: center;
-        font-size: 50px;
-    }
+@media screen and (max-width: 768px) {
     .column-50{
-        width: 30%;
+      width: 100%; 
+      text-align: justify;
     }
-    .column1002{
-        font-family: 'Nunito', sans-serif;
-        font-size: 50px;
-        text-align: center;
+    .column-img{
+      float: right;
+      margin-top: 600px;
     }
-    .column-img2{
-        width: 60.00%;
-        padding-left: 25%;
+    #tamaño-img{
+      max-width: 200%;
+      height: auto;
     }
-    .column-img3{
-        width: 50%;
-        margin-top: 40px;
+    #tamaño-img2{
+        width: 33%;
+    }
+    #tamaño-img4{
+        width: 200%;
+        height: auto;
+    }
+    h1{
+      font-size: 40px;
+    }
+    .column-100 {
+      padding: 50px;
+      height: auto;
+    }
+    #titulo {
+      font-size: 40px;
+    }
+    #titulo2 {
+      font-size: 25px;
+    }
+    .column1002 {
+      font-size: 50px;
+    }
+    #titulo3 {
+      font-size: 50px;
     }
     #titulo4{
-        font-family: 'Nunito', sans-serif;
-        font-size: 65px;
+        font-size: 40px;
     }
-    .columnimg img{
-        width: 45%;
+    .column-505{
+        margin-right: 400px;
+        margin-top: 550px;
+    }
+    #titulo5{
+      font-size: 25px;
     }
     #estilos2{
-        font-family: 'Nunito', sans-serif;
-        font-size: 60px;
+      font-size: 40px;
+    }
+    #titulo7 {
+      font-size: 25px;
+      width: 100%;
+    }
+    .column33 {
+      width: 100%;
+      float: none;
+    }
+    .row4{
+      height: auto;
+    }
+    .column-img2{
+      width: 100%;
+      padding: 0;
+      margin-top: 50px;
+      text-align: center;
+    }
+    .column-img3{
+      max-width: 100%;
+      height: auto;
+    }
+    .textoencima{
         text-align: center;
-        background-color: rgb(0, 145, 255);
+    }
+    .columnimg{
+      width: 100%;
+
     }
     .column33{
-        display: flex;
-        color: white;
-        font-family: 'Nunito', sans-serif;
-        width: 16.33%;
-        float: right;
-    }
-} 
-
+      font-size: 20px;
+      text-align: center;
+      margin: 0;
+    }    
+}
+  
 
